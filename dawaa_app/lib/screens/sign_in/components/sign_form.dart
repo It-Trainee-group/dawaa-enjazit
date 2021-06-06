@@ -15,8 +15,8 @@ class SignForm extends StatefulWidget {
 
 class _SignFormState extends State<SignForm> {
   final _formKey = GlobalKey<FormState>();
-  String email;
-  String password;
+  String email = "test@gmail.com";
+  String password = "test123456";
   bool remember = false;
   final List<String> errors = [];
 
