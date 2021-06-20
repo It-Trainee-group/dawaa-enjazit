@@ -1,3 +1,5 @@
+import 'package:dawaa_app/screens/chat/screens/chat.dart';
+import 'package:dawaa_app/screens/chat/screens/chatHomeScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:dawaa_app/screens/home/home_screen.dart';
@@ -53,8 +55,21 @@ class CustomBottomNavBar extends StatelessWidget {
                 onPressed: () {},
               ),
               IconButton(
-                icon: SvgPicture.asset("assets/icons/Chat bubble Icon.svg"),
-                onPressed: () {},
+                icon: SvgPicture.asset(
+                  "assets/icons/Chat bubble Icon.svg",
+                  color: MenuState.message == selectedMenu
+                      ? kPrimaryColor
+                      : inActiveIconColor,
+                ),
+                onPressed: () {
+                  Navigator.pushNamed(context, Chat.routeName);
+                  showDialog(
+                    context: context,
+                    builder: (context) => AlertDialog(
+                      title: Text('Under Construction'),
+                    ),
+                  );
+                },
               ),
               IconButton(
                 icon: SvgPicture.asset(

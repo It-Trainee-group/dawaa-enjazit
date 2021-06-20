@@ -1,5 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:dawaa_app/screens/cart/cart_screen.dart';
+import 'package:dawaa_app/screens/chat/screens/chat.dart';
 import 'package:dawaa_app/screens/complete_profile/complete_profile_screen.dart';
 import 'package:dawaa_app/screens/details/details_screen.dart';
 import 'package:dawaa_app/screens/forgot_password/forgot_password_screen.dart';
@@ -26,4 +27,5 @@ final Map<String, WidgetBuilder> routes = {
   DetailsScreen.routeName: (context) => DetailsScreen(),
   CartScreen.routeName: (context) => CartScreen(),
   ProfileScreen.routeName: (context) => ProfileScreen(),
+  Chat.routeName: (context) => Chat(),
 };

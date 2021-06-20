@@ -1,0 +1,41 @@
+{
+	"Users":
+	[
+		{
+			"ID":1,
+			"Fname":"Ahmed",
+			"Lname":"Hassan",
+			"Phone":39856412,
+			"Email":"Ahmed@gmail.com",
+			"Role":"Admin",
+			"Description":"Nice to be admin"
+		},
+		{
+			"ID":2,
+			"Fname":"Mohammed",
+			"Lname":"Hassan",
+			"Phone":32145698,
+			"Email":"Mohammed@hotmail.com",
+			"Role":"pharmacist",
+			"Description":"Anther day anther knowledge"
+		},
+		{
+			"ID":3,
+			"Fname":"Zainb",
+			"Lname":"Ali",
+			"Phone":36547896,
+			"Email":"Zainb_2@gmail.com",
+			"Role":"pharmacist",
+			"Description":"Parse never big"
+		},
+		{
+			"ID":4,
+			"Fname":"Ali",
+			"Lname":"Hassan",
+			"Phone":36547896,
+			"Email":"ALI_Hassan@gmail.com",
+			"Role":"Admin",
+			"Description":"Never to late"
+		}
+	]
+}

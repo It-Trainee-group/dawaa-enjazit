@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:dawaa_app/constants.dart';
 import 'package:dawaa_app/screens/sign_in/sign_in_screen.dart';
+import 'package:dawaa_app/screens/home/home_screen.dart';
 import 'package:dawaa_app/size_config.dart';
 
 // This is the best practice
@@ -69,7 +70,8 @@ class _BodyState extends State<Body> {
                     DefaultButton(
                       text: "Continue",
                       press: () {
-                        Navigator.pushNamed(context, SignInScreen.routeName);
+                        // replace to sign in to home
+                        Navigator.pushNamed(context, HomeScreen.routeName);
                       },
                     ),
                     Spacer(),
